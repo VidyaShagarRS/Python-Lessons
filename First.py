@@ -7,7 +7,8 @@ print(name+" like "+color)
 # (Variable Type Conversion)
 
 weight_in_pounds= input("What is your weight in pounds? ")
-weight_in_kg= float(weight_in_pounds) * 0.453592
+converting_value= "0.453592"
+weight_in_kg= int(weight_in_pounds) * float(converting_value)
 print("Your weight in KG is:")
 print(weight_in_kg)
 
