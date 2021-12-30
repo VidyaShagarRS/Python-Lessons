@@ -22,3 +22,17 @@ Example
 message'''
 print(message)
 
+# (Length in Variables)
+
+course="Here is an example"
+print(course[0:9])
+print(course[11:-3])
+
+# (formatted Strings)
+first_name= "Vidya"
+last_name= "Shagar"
+normal_concatenating= '['+first_name+" "+last_name+'] is now learning a python'
+formatted_string= f"[{first_name} {last_name}] is now learning a Python"
+print(normal_concatenating)
+print(formatted_string)
+
