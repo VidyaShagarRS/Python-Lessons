@@ -55,7 +55,7 @@ print("10 + 3 (addition)")
 print("10 - 3 (subtraction)")
 print("10 * 3 (multiplication)")
 print("10 / 3 (division but it gives output in float like 3.333)")
-print("10 // 3 (division but it gives output in Int like 3 {Rounded result} )")
+print("10 // 3 (division but it gives output in Int like 3.0 {Rounded result} )")
 print("10 % 3 (modulus, it gives the remainder of division)")
 print("10 ** 3 (It means 10 power of 3, output is \"1000\")")
 
