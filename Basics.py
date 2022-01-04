@@ -85,3 +85,29 @@ print('''
 <= {Lesser than or equal to}
 == {Comparing is equal to}
 != {Comparing is not equal to} ''')
+
+# (While Loop)
+
+print("Ask Help If You Need!")
+count= 0
+counts_Attempted= 4
+
+while count < counts_Attempted :
+     needhelp= input(">>> ").lower()
+     count+=1
+     if needhelp == "help":
+         print('''"START" - To Start the CAR
+"STOP - To Stop the CAR
+"QUIT" - EXit''')
+     elif needhelp == "start":
+         print("Car Started")
+         break
+     elif needhelp == "stop":
+         print("Car Stopped")
+         break
+     elif needhelp == "quit":
+         break
+     elif needhelp != "start" or "stop" or "help" or "quit":
+         print("Please type Help")
+else:
+     print("I Don't Know What You Said!!!")
