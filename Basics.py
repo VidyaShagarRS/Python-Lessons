@@ -88,6 +88,19 @@ print('''
 
 # (While Loop)
 
+line = '*'
+max_length = 10
+
+while len(line) <= max_length:
+    print(line)
+    line += "*"
+
+while len(line) > 0:
+    print(line)
+    line = line[:-1]
+
+# (Another Exampe)
+
 print("Ask Help If You Need!")
 count= 0
 counts_Attempted= 4
