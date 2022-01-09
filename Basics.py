@@ -88,6 +88,18 @@ print('''
 
 # (While Loop)
 
+lst=[10, 99, 98, 85, 45, 59, 65, 66, 76, 12, 35, 13, 100, 80, 95]
+#Type your code here.
+add_num = lst[5]
+if (add_num == 59):
+    while add_num <100:
+        add_num +=1
+
+        print(10 in lst)
+print("There is a "+str(add_num)+" at index no:5")
+
+# (Another Exampe)
+
 line = '*'
 max_length = 10
 
